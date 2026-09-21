@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "slidev --port 3030",
     "build": "slidev build",
-    "build:pages": "slidev build --base /civo-navigate-2026/ --router-mode hash",
+    "build:pages": "slidev build --base ./ --router-mode hash",
     "export:pdf": "slidev export --format pdf --output dist/civo-navigate-2026.pdf",
     "export:png": "slidev export --format png --output dist/png"
   },
