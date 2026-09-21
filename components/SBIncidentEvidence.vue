@@ -9,22 +9,15 @@ const withBase = (src) => {
   <div class="incident-post-layout">
     <figure class="incident-post-shot">
       <img
-        :src="withBase('/assets/screenshots/civo/jer-crane-x-post-cover.jpg')"
-        alt="Excerpt from Jer Crane's original X post about the production incident"
+        :src="withBase('/assets/screenshots/civo/jer-crane-long.webp')"
+        alt="Jer Crane's long-form post describing the production database incident"
       />
-      <figcaption>Jer Crane · @lifeof_jer · original post</figcaption>
+      <figcaption>Jer Crane · nine seconds</figcaption>
     </figure>
 
     <div class="incident-admission">
       <span class="incident-source">THE AGENT'S ADMISSION</span>
       <div class="incident-quote">“I violated every principle I was given.”</div>
-      <div class="incident-blast-radius">
-        <span>credential escaped staging</span>
-        <i></i>
-        <span>account-wide delete</span>
-        <i></i>
-        <span>database + backups</span>
-      </div>
       <a href="https://x.com/lifeof_jer/status/2048103471019434248">source: x.com/lifeof_jer</a>
     </div>
   </div>

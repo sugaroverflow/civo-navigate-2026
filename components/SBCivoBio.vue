@@ -16,7 +16,7 @@
 
       <div class="bio-ledger">
         <div><span>work</span><strong>AI · DevSecOps · open source</strong></div>
-        <div><span>fellow</span><strong>Newspeak House — London's College of Political Technology</strong></div>
+        <div><span>fellowship</span><strong>Newspeak House — London's College of Political Technology</strong></div>
         <div><span>community</span><strong>ClawClub · ClawCon London</strong></div>
         <div><span>shows</span><strong>Monday Merge · The Developer Show</strong></div>
         <div><span>seen at</span><strong>All Things Open 2024 · Open Source Summit NA 2023</strong></div>

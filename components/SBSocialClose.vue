@@ -9,25 +9,19 @@ const withBase = (src) => {
   <div class="social-close">
     <section class="social-thanks">
       <h2>THANK YOU!</h2>
-      <img class="social-avatar" :src="withBase('/assets/screenshots/headshot-khalidfatima.png')" alt="Fatima Sarah Khalid" />
       <div class="social-copy">
         <p class="social-handle">@sugaroverflow</p>
-        <p>Monday Merge · The Developer Show</p>
-        <div class="social-icons" aria-label="social links">
-          <span>in</span>
-          <span>x</span>
-          <span>bsky</span>
-          <span>m</span>
-        </div>
+        <p class="social-caption">find me all over the internet as @sugaroverflow!</p>
       </div>
     </section>
 
     <section class="social-lab">
-      <p>Sparkle Bureaucracy is a network of people using AI to explore optimistic organisational and service futures.</p>
-      <a class="social-url" href="https://www.sparklebureaucracy.org/">sparklebureaucracy.org</a>
+      <div class="social-lab-rule" aria-hidden="true"></div>
+      <p>A network using emerging technology — AI agents, factories — to prototype more optimistic futures.</p>
       <div class="social-qr-frame">
         <img :src="withBase('/assets/sparkle-bureaucracy-qr.svg')" alt="QR code for sparklebureaucracy.org" />
       </div>
+      <a class="social-url" href="https://www.sparklebureaucracy.org/">sparklebureaucracy.org</a>
     </section>
   </div>
 </template>

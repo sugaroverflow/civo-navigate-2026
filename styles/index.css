@@ -82,9 +82,9 @@
   z-index: 4;
   right: 42px;
   bottom: 14px;
-  color: var(--sb-dim);
+  color: var(--sb-ink);
   font-family: "SFMono-Regular", Menlo, Consolas, monospace;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1;
   text-transform: lowercase;
@@ -745,6 +745,49 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+}
+
+.fix-grid.two-up {
+  width: min(900px, 100%);
+  margin-inline: auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field-stops-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--sb-line);
+  border-bottom: 1px solid var(--sb-line);
+}
+
+.field-stops-grid > div {
+  min-height: 250px;
+  display: grid;
+  align-content: center;
+  gap: 18px;
+  padding: 28px;
+  border-right: 1px solid var(--sb-line);
+}
+
+.field-stops-grid > div:nth-child(2) {
+  background: oklch(77% 0.115 190 / 0.08);
+}
+
+.field-stops-grid > div:last-child {
+  border-right: 0;
+}
+
+.field-stops-grid span,
+.field-four-subtitle {
+  color: var(--sb-muted);
+  font: 850 13px/1 "SFMono-Regular", Menlo, Consolas, monospace;
+  text-transform: uppercase;
+}
+
+.field-stops-grid strong {
+  color: var(--sb-ink);
+  font-size: 30px;
+  line-height: 1.03;
 }
 
 .handoff-map {
@@ -1952,7 +1995,7 @@
 
 .incident-post-layout {
   display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
+  grid-template-columns: 0.62fr 1.38fr;
   gap: 24px;
   min-height: 0;
 }
@@ -1970,7 +2013,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center;
+  object-position: top center;
 }
 
 .incident-post-shot figcaption {
@@ -2012,7 +2055,7 @@
   color: var(--sb-yellow-soft);
   background: oklch(88% 0.17 92 / 0.09);
   box-shadow: inset 7px 0 0 var(--sb-yellow);
-  font-size: 45px;
+  font-size: 54px;
   font-weight: 900;
   line-height: 1.02;
   letter-spacing: -0.035em;
@@ -2049,7 +2092,7 @@
 }
 
 .origin-real-shot img {
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
 }
 
@@ -2061,8 +2104,28 @@
 }
 
 .origin-personal-shot img {
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
+}
+
+.origin-real-shot,
+.origin-personal-shot {
+  background: #f7f7f7;
+}
+
+.nick-chief-shot img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.field-four-slide .sb-giant {
+  max-width: 1240px;
+  font-size: 68px;
+}
+
+.field-four-subtitle {
+  color: var(--sb-teal-soft);
+  font-size: 20px;
 }
 
 .buzz-real-composite {
@@ -2071,6 +2134,7 @@
 }
 
 .buzz-real-shot {
+  margin-left: 8%;
   width: 92%;
   height: 100%;
 }
@@ -2082,12 +2146,12 @@
 
 .buzz-roster-shot {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 18px;
   width: 31%;
   height: 64%;
   border-color: oklch(72% 0.22 304 / 0.72);
-  box-shadow: -16px 18px 54px oklch(5% 0.025 270 / 0.5);
+  box-shadow: 16px 18px 54px oklch(5% 0.025 270 / 0.5);
 }
 
 .buzz-roster-shot img {
@@ -2142,6 +2206,10 @@
   aspect-ratio: auto;
 }
 
+.photo-grid-four .sb-placeholder:nth-child(3) {
+  transform: translateY(-14px);
+}
+
 .story-screenshot-slide {
   grid-template-rows: auto minmax(0, 1fr);
   gap: 18px;
@@ -2188,6 +2256,11 @@
   font-weight: 900;
   line-height: 0.98;
   letter-spacing: -0.045em;
+}
+
+.memory-single-line .story-quote {
+  max-width: 1100px;
+  color: var(--sb-teal-soft);
 }
 
 .story-lesson {
@@ -2276,6 +2349,38 @@
   font-size: 34px;
 }
 
+.hallway-questions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.hallway-questions > div {
+  min-height: 205px;
+  display: grid;
+  align-content: center;
+  gap: 14px;
+  padding: 24px 28px;
+  border: 1px solid var(--sb-line);
+  background: oklch(94% 0.018 275 / 0.035);
+}
+
+.hallway-questions > div:nth-child(2),
+.hallway-questions > div:nth-child(3) {
+  background: oklch(77% 0.115 190 / 0.06);
+}
+
+.hallway-questions span {
+  color: var(--sb-pink-soft);
+  font: 900 12px/1 "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+.hallway-questions strong {
+  color: var(--sb-ink);
+  font-size: 27px;
+  line-height: 1.08;
+}
+
 .trust-close-slide {
   text-align: left;
 }
@@ -2292,7 +2397,7 @@
 
 .social-close {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
   gap: 34px;
   align-items: center;
   min-height: 620px;
@@ -2300,8 +2405,6 @@
 
 .social-thanks,
 .social-lab {
-  border: 1px solid var(--sb-line);
-  background: oklch(94% 0.018 275 / 0.045);
   padding: 34px;
   display: grid;
   gap: 22px;
@@ -2310,12 +2413,14 @@
 }
 
 .social-thanks {
+  border: 1px solid var(--sb-line);
+  background: oklch(94% 0.018 275 / 0.045);
   justify-items: center;
   text-align: center;
 }
 
 .social-thanks h2 {
-  font-size: 70px;
+  font-size: 82px;
   line-height: 0.92;
   font-weight: 600;
 }
@@ -2330,19 +2435,32 @@
 }
 
 .social-lab {
-  justify-items: start;
+  justify-items: center;
+  text-align: center;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#0b0d13, #0b0d13) padding-box,
+    linear-gradient(115deg, #ec4899, #2dd4bf) border-box;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 .social-lab p {
-  max-width: 650px;
+  max-width: 610px;
   color: var(--sb-ink);
-  font-size: 34px;
-  line-height: 1.12;
+  font-size: 31px;
+  line-height: 1.14;
   font-weight: 600;
 }
 
+.social-lab-rule {
+  width: min(360px, 78%);
+  height: 5px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ec4899, #2dd4bf);
+}
+
 .social-qr-frame {
-  width: 250px;
+  width: 240px;
   padding: 16px;
   background: oklch(96% 0.008 274);
   border: 1px solid oklch(78% 0.16 190 / 0.52);
@@ -2372,8 +2490,8 @@
 }
 
 .social-url {
-  color: var(--sb-teal-soft);
-  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  color: #2dd4bf;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   text-decoration: none;
@@ -2386,14 +2504,20 @@
   line-height: 1.22;
 }
 
+.social-caption {
+  max-width: 390px;
+  color: var(--sb-soft) !important;
+  font-size: 21px !important;
+}
+
 .social-copy h3 {
   font-size: 42px;
 }
 
 .social-handle {
   color: var(--sb-ink) !important;
-  font-size: 30px !important;
-  font-weight: 600;
+  font-size: 38px !important;
+  font-weight: 750;
 }
 
 .social-icons {
