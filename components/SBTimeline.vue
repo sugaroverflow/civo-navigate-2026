@@ -11,12 +11,12 @@
         <h3>Prompts</h3>
         <p>What do I say so the model does useful work?</p>
       </div>
-      <div class="timeline-item active">
+      <div class="timeline-item">
         <div class="timeline-dot"></div>
         <h3>Tools</h3>
         <p>What can the model reach, change, or call?</p>
       </div>
-      <div class="timeline-item">
+      <div class="timeline-item active">
         <div class="timeline-dot"></div>
         <h3>Workflows</h3>
         <p>What happens next when one step finishes?</p>

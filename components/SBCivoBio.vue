@@ -6,7 +6,7 @@
         src="/assets/screenshots/headshot-khalidfatima.png"
         alt="Fatima Sarah Khalid"
       />
-      <div class="bio-coordinate">LONDON · GITLAB · NEWSPEAK HOUSE</div>
+      <div class="bio-coordinate">RAN CLAWCON LONDON · RUNS CLAWCLUB</div>
     </div>
 
     <div class="bio-copy">
@@ -16,14 +16,15 @@
 
       <div class="bio-ledger">
         <div><span>work</span><strong>AI · DevSecOps · open source</strong></div>
-        <div><span>research</span><strong>multi-agent workflows</strong></div>
+        <div><span>fellow</span><strong>Newspeak House — London's College of Political Technology</strong></div>
         <div><span>community</span><strong>ClawClub · ClawCon London</strong></div>
         <div><span>shows</span><strong>Monday Merge · The Developer Show</strong></div>
+        <div><span>seen at</span><strong>All Things Open 2024 · Open Source Summit NA 2023</strong></div>
       </div>
 
       <div class="bio-footer">
         <span>@sugaroverflow</span>
-        <span>Fellow · Newspeak House</span>
+        <span>AI · DevSecOps · open source</span>
       </div>
     </div>
   </div>
@@ -69,7 +70,7 @@
 
 .bio-copy {
   display: grid;
-  gap: 18px;
+  gap: 14px;
   align-content: center;
   max-width: 760px;
 }
@@ -105,9 +106,9 @@
 
 .bio-ledger > div {
   display: grid;
-  grid-template-columns: 128px 1fr;
+  grid-template-columns: 112px 1fr;
   gap: 22px;
-  padding: 15px 0;
+  padding: 11px 0;
   border-bottom: 1px solid var(--sb-line);
 }
 
@@ -119,7 +120,7 @@
 
 .bio-ledger strong {
   color: var(--sb-ink);
-  font-size: 19px;
+  font-size: 16.5px;
   font-weight: 720;
 }
 
