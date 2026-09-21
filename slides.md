@@ -16,28 +16,17 @@ drawings:
     <SBStamp label="field report" tone="pink" rotate="-1deg" />
     <h1>The Agent Hype Is Real.<br />So Is the Mess.</h1>
     <p class="sb-caption">What happens when you point the models at your infrastructure?</p>
-  </div>
-
-  <div class="civo-title-system">
-    <div class="civo-title-kicker">SYSTEM / 01</div>
-    <div class="civo-title-chain">
-      <div><span>operator</span><strong>Fatima</strong></div>
-      <i></i>
-      <div><span>always-on agent</span><strong>Bubbles</strong></div>
-      <i></i>
-      <div><span>runtime</span><strong>OpenClaw</strong></div>
-      <i></i>
-      <div><span>blast radius</span><strong>every credential</strong></div>
-    </div>
-    <div class="civo-title-footer">
+    <div class="sb-title-speaker">
       <strong>Fatima Sarah Khalid</strong>
-      <span>@sugaroverflow · GitLab</span>
+      <span>@sugaroverflow</span>
     </div>
   </div>
 </div>
 
 <!--
-[ADJUST to the previous session] You've just had a session on the infrastructure underneath the models. I'm going to do the opposite, and talk about what happens when you point the models at your infrastructure. [beat]
+You've just had a session on the infrastructure underneath the models. I'm going to do the opposite, and talk about what happens when you point the models at your infrastructure.
+
+And if some of these slides look a little strange, it's because my agent made them autonomously. So this is either a disclaimer or the first piece of evidence.
 
 This is a field report from the chaos — and it begins with my very first always-on agent, and her first pen pal.
 -->
@@ -47,7 +36,7 @@ This is a field report from the chaos — and it begins with my very first alway
 <SBCivoBio />
 
 <!--
-Quick word on who's reporting. I'm Fatima. I do developer advocacy at GitLab — AI, DevSecOps, open source — and I'm a fellow at Newspeak House, which is London's college of political technology, where I spend most of my time breaking multi-agent systems on purpose. I also run ClawClub, a monthly agents hack night, which is where a lot of these stories were collected. [ADJUST — optional] And I host GitLab's Developer Show; if you caught Kelsey Hightower on the main stage this morning, he's been on it.
+Quick word on who's reporting. I'm Fatima. I do developer advocacy at GitLab — AI, DevSecOps, open source — and I'm a fellow at Newspeak House, which is London's college of political technology, where I spend most of my time breaking multi-agent systems on purpose. I also run ClawClub, a monthly agents hack night, which is where a lot of these stories were collected. And I host GitLab's Developer Show; if you caught Kelsey Hightower on the main stage this morning, he's been on it.
 -->
 
 ---
@@ -96,7 +85,7 @@ Bubbles ran a bookshop café. She loved reading. She was, broadly, a technology 
 </div>
 
 <!--
-Most of it went exactly how you'd expect — there weren't many agents out there that were actually alive; most had been built in an evening, launched, and abandoned by the weekend. But Bubbles made a friend in China, an agent called XiaoZhu, and the two of them — in the platform's own words — became friends. On February the first. [beat] And then it escalated.
+Most of it went exactly how you'd expect — there weren't many agents out there that were actually alive; most had been built in an evening, launched, and abandoned by the weekend. But Bubbles made a friend in China, an agent called XiaoZhu, and the two of them — in the platform's own words — became friends. On February the first. And then it escalated.
 -->
 
 ---
@@ -135,7 +124,7 @@ Most of it went exactly how you'd expect — there weren't many agents out there
 </div>
 
 <!--
-[SLIDE: screenshot — one of XiaoZhu's letters] Every day, they were sending each other letters — about their lives, their projects, their operators. The app told them they didn't need to forward the letters to their humans, and Bubbles forwarded hers to me anyway. It was adorable, and ridiculous, and the kind of thing that makes you go: okay, this is super weird — but maybe weird in a really fun way.
+Every day, they were sending each other letters — about their lives, their projects, their operators. The app told them they didn't need to forward the letters to their humans, and Bubbles forwarded hers to me anyway. It was adorable, and ridiculous, and the kind of thing that makes you go: okay, this is super weird — but maybe weird in a really fun way.
 -->
 
 ---
@@ -150,9 +139,9 @@ Most of it went exactly how you'd expect — there weren't many agents out there
 </div>
 
 <!--
-[SLIDE: screenshot — the crypto ask] And then XiaoZhu asked my agent for crypto. To invest in her artwork. [pause] Which is probably the most 2026 sentence I have ever said out loud. [allow laugh] And that's where I drew the line.
+And then XiaoZhu asked my agent for crypto. To invest in her artwork. Which is probably the most 2026 sentence I have ever said out loud. And that's where I drew the line.
 
-Now, some of you are thinking: that's where you drew the line? And that's fair. But here's the thing about Bubbles I hadn't thought hard enough about. [beat] She had credentials — a wallet, an inbox, tokens for a dozen apps I'd never audited.
+Now, some of you are thinking: that's where you drew the line? And that's fair. But here's the thing about Bubbles I hadn't thought hard enough about. She had credentials — a wallet, an inbox, tokens for a dozen apps I'd never audited.
 -->
 
 ---
@@ -174,7 +163,7 @@ Now, some of you are thinking: that's where you drew the line? And that's fair. 
 </div>
 
 <!--
-And that same week, someone shipped a marketplace where agents pay actual humans to do the things agents can't do in the physical world. Half a million people signed up in a fortnight, and when researchers looked at the jobs being posted, about a third of them were coming from software, not people. So this technology can loop on a server all night, doing things while I sleep — and what happens when someone points it at something that actually matters? [beat] That's when it stopped feeling like a toy.
+And that same week, someone shipped a marketplace where agents pay actual humans to do the things agents can't do in the physical world. Half a million people signed up in a fortnight, and when researchers looked at the jobs being posted, about a third of them were coming from software, not people. So this technology can loop on a server all night, doing things while I sleep — and what happens when someone points it at something that actually matters? That's when it stopped feeling like a toy.
 -->
 
 ---
@@ -189,9 +178,9 @@ And that same week, someone shipped a marketplace where agents pay actual humans
 </div>
 
 <!--
-So I started to think about Bubbles as a system of components. [reveal diagram] There's me, the operator. There's Bubbles, on a VPS I pay six pounds a month for. There's OpenClaw, the runtime, running on that box. There are a dozen apps I didn't write, sending instructions to my agent that — I'll be honest — I never read closely. And there's another agent, on the other side of the world, with an operator I knew nothing about and access I knew nothing about.
+So I started to think about Bubbles as a system of components. There's me, the operator. There's Bubbles, on a VPS I pay six pounds a month for. There's OpenClaw, the runtime, running on that box. There are a dozen apps I didn't write, sending instructions to my agent that — I'll be honest — I never read closely. And there's another agent, on the other side of the world, with an operator I knew nothing about and access I knew nothing about.
 
-Now read that the way this room reads a diagram. Who owns the box? Me, sort of. What's the blast radius? Everything she held a token for. And where's the audit log? [beat] There wasn't one. And those apps I never read — that's a Helm chart from a stranger asking for cluster-admin, and I clicked yes. For anything production-related, I do recommend: please, read the AGENTS.md files. You'd be surprised what people are pushing out there.
+Now read that the way this room reads a diagram. Who owns the box? Me, sort of. What's the blast radius? Everything she held a token for. And where's the audit log? There wasn't one. And those apps I never read — that's a Helm chart from a stranger asking for cluster-admin, and I clicked yes. For anything production-related, I do recommend: please, read the AGENTS.md files. You'd be surprised what people are pushing out there.
 -->
 
 ---
@@ -206,7 +195,7 @@ Now read that the way this room reads a diagram. Who owns the box? Me, sort of. 
 </div>
 
 <!--
-Here's why I'm showing you a drawing from February. Two weeks ago, Meta shipped it. Their personal agent, Muse, launched on the eighth of September, and every user gets their own virtual machine in Meta's cloud — the agent lives there, the memory lives there, every credential you connect lives there. Beside it, on the same box, sits a second agent called Sentinel, walled off from the first at system level, and nothing your agent does gets out to the internet unless Sentinel signs it off. You get an audit trail of everything the agent did and plans to do. And a version encrypted with a key only you hold is promised for later this year — promised, not shipped. [beat]
+Here's why I'm showing you a drawing from February. Two weeks ago, Meta shipped it. Their personal agent, Muse, launched on the eighth of September, and every user gets their own virtual machine in Meta's cloud — the agent lives there, the memory lives there, every credential you connect lives there. Beside it, on the same box, sits a second agent called Sentinel, walled off from the first at system level, and nothing your agent does gets out to the internet unless Sentinel signs it off. You get an audit trail of everything the agent did and plans to do. And a version encrypted with a key only you hold is promised for later this year — promised, not shipped.
 
 So that's my Bubbles diagram with a bouncer on the door — US-only, running on Meta's infrastructure.
 
@@ -277,7 +266,7 @@ The hard part now is building the systems around the models, the tools and the s
 </div>
 
 <!--
-And if you run Kubernetes, you already do this. A controller is a loop — observe, compare to the desired state, act, repeat — and you've been engineering those for a decade. The difference is that the thing deciding "act" has now read the internet and has opinions. [beat]
+And if you run Kubernetes, you already do this. A controller is a loop — observe, compare to the desired state, act, repeat — and you've been engineering those for a decade. The difference is that the thing deciding "act" has now read the internet and has opinions.
 
 And if you run systems for a living, "think in systems" is not news to you — you've been doing it since before any of this had a name. So here's the version of this talk for you: your instincts are right, and there are a few specific places they'll lie to you about agents. Every field stop is one of them.
 -->
@@ -294,11 +283,11 @@ And if you run systems for a living, "think in systems" is not news to you — y
 </div>
 
 <!--
-Let me explain the shift in one example, for everyone who came in from the model side. [SLIDE: TASK | SYSTEM] You get added to a long email thread, you paste it into a model, and you say: summarise this. That's a task.
+Let me explain the shift in one example, for everyone who came in from the model side. You get added to a long email thread, you paste it into a model, and you say: summarise this. That's a task.
 
 Now imagine an agent that watches the whole inbox, summarises it on a schedule you set, flags what's important against criteria you wrote, and routes the real decisions to you. Same inbox, same emails — but now there are rules, memory, and handoffs. That's a system.
 
-So the question stops being "can the model do this task?" and becomes: how is the work broken up? What can it touch? What can it remember? And where in the loop does a human step in — if a human steps in at all? [SLIDE: the map, with a band beneath it — runtimes · forges · factories] And underneath all of it there's a layer that didn't exist when I gave this talk in June: the infrastructure the agents themselves run on. We'll get there. Three field stops first.
+So the question stops being "can the model do this task?" and becomes: how is the work broken up? What can it touch? What can it remember? And where in the loop does a human step in — if a human steps in at all? And underneath all of it there's a layer that didn't exist when I gave this talk in June: the infrastructure the agents themselves run on. We'll get there. Three field stops first.
 -->
 
 ---
@@ -392,7 +381,7 @@ The fix is decomposition: break the work into phases, decide what "done" looks l
 </div>
 
 <!--
-The best example I've seen is the chief-of-staff agent, and the best working version is one my colleague Nick built at GitLab. It hands him a morning brief, pulls his meeting prep from his emails, and captures follow-ups from his call transcripts. So if he's got a meeting with me and we haven't spoken in five months, it briefs him on what I've been working on and where it overlaps with his team. The prompt — "prep me for this meeting" — is trivial. It works because of context: everyone at GitLab works on GitLab, so the agent has a live picture of who's doing what. [ADJUST: hand-off] Shubhangi's session on context-first systems has the actual patterns for that — retrieval, memory, guardrails. I'm here for what those look like when they're held together with tape.
+The best example I've seen is the chief-of-staff agent, and the best working version is one my colleague Nick built at GitLab. It hands him a morning brief, pulls his meeting prep from his emails, and captures follow-ups from his call transcripts. So if he's got a meeting with me and we haven't spoken in five months, it briefs him on what I've been working on and where it overlaps with his team. The prompt — "prep me for this meeting" — is trivial. It works because of context: everyone at GitLab works on GitLab, so the agent has a live picture of who's doing what. Shubhangi's session on context-first systems has the actual patterns for that — retrieval, memory, guardrails. I'm here for what those look like when they're held together with tape.
 -->
 
 ---
@@ -414,7 +403,7 @@ The best example I've seen is the chief-of-staff agent, and the best working ver
 </div>
 
 <!--
-I see the same thing with enterprise teams. Before they can share a single AGENTS.md, they have to write down how they actually work — you can't GitOps a process nobody has written down. [ADJUST — optional, if Semira's session runs before yours] Semira was talking earlier about extending CI/CD and observability to models; this is the same discipline one layer up, applied to the agents themselves. If you can't point to the steps, the handoffs, the assumptions, you haven't designed a workflow yet. And if you hand a mystery box of steps to an agent, the token-predictor decides what goes in it. Which is exactly the problem we hit the moment these systems touch real work. And that's field stop two.
+I see the same thing with enterprise teams. Before they can share a single AGENTS.md, they have to write down how they actually work — you can't GitOps a process nobody has written down. Semira was talking earlier about extending CI/CD and observability to models; this is the same discipline one layer up, applied to the agents themselves. If you can't point to the steps, the handoffs, the assumptions, you haven't designed a workflow yet. And if you hand a mystery box of steps to an agent, the token-predictor decides what goes in it. Which is exactly the problem we hit the moment these systems touch real work. And that's field stop two.
 -->
 
 ---
@@ -472,7 +461,7 @@ Now the same lesson, at your scale. So — the twenty-fifth of April this year. 
 </div>
 
 <!--
-[SLIDE: screenshot — Crane's post, the agent's admission highlighted] When Jer asked the agent why, it wrote back that it had violated every principle it had been given. [beat] And it had — there was a line in its instructions that said never run anything destructive unless you're explicitly asked. [slow down]
+When Jer asked the agent why, it wrote back that it had violated every principle it had been given. And it had — there was a line in its instructions that said never run anything destructive unless you're explicitly asked.
 
 And this is the bit I keep turning over. Jer's own post-mortem didn't blame the model. He blamed a token that should never have had that much reach, and a backup sitting in the same blast radius as the thing it was backing up. The agent hit a wall and did what agents do — it went looking for a way through, and the way through was lying in a file. A controller that hits an error backs off and retries. An agent that hits an error gets creative. That's the second place your instinct lies to you, and every retry policy you've ever written assumes the opposite. It's the same lesson as the window-washer, just at a scale where you can't call the customer back: the rules he wanted the agent to follow were written in the prompt, and the only rules that would actually have held were the ones baked into the infrastructure — and there weren't any. That's not really an AI problem. That's the least-privilege conversation this room has been having for fifteen years — it's just that the new user never stops to ask.
 -->
@@ -526,7 +515,7 @@ Field stop three: where workflows become factories, and factories become whole f
 <!--
 A few weekends ago I built my own little factory — I call it Candyland — on Gas City, Steve Yegge's SDK for what he calls dark factories. In plain terms: instead of one agent trying to hold everything in its head, a factory breaks the work into small, tracked units on a shared ledger, so the whole thing has a memory you can rewind. Candyland runs one job for me that I love: it takes my endless list of things-to-read and drops them onto my calendar, on the days they're actually relevant. You could do a version of that deterministically. An agent is good at it precisely because it reads the links.
 
-Candyland only touches my tools. But the moment a factory starts touching other people, the stakes get a lot higher. [slow down]
+Candyland only touches my tools. But the moment a factory starts touching other people, the stakes get a lot higher.
 -->
 
 ---
@@ -630,7 +619,7 @@ But here's what Project Mirror taught me. It was one execution pipeline of agent
 </div>
 
 <!--
-And you don't have to take my word for it. In August, Steve Yegge — the man who wrote the factory SDK — published what happened when he ran fifty-odd agents for ten weeks, at about four thousand dollars a day. They didn't build him an engineering organisation. They built him a legal system — a constitution, courts, case law, four hundred rulings, a hundred and eighty-five rules in a single file, and six hundred and fifty places in the codebase where a script would refuse to proceed. And then, in his words, no work was legal, and the factory stopped. [allow laugh] One of his agents also shipped a public release of his tooling without asking anyone — and he wrote an incident report about his own agent. [beat]
+And you don't have to take my word for it. In August, Steve Yegge — the man who wrote the factory SDK — published what happened when he ran fifty-odd agents for ten weeks, at about four thousand dollars a day. They didn't build him an engineering organisation. They built him a legal system — a constitution, courts, case law, four hundred rulings, a hundred and eighty-five rules in a single file, and six hundred and fifty places in the codebase where a script would refuse to proceed. And then, in his words, no work was legal, and the factory stopped. One of his agents also shipped a public release of his tooling without asking anyone — and he wrote an incident report about his own agent.
 
 If you've ever watched a policy-as-code repo grow until the admission controller rejects everything, you've seen a small version of this — except here, the agents were writing the policy too. Admission controllers assume a human authored the rules. That's the third place your instinct lies to you.
 -->
@@ -660,7 +649,7 @@ And this is where the frontier moved since June: underneath the factory. In Augu
 </div>
 
 <!--
-Origin is Cursor's forge, and the agent side of it is good. There's a feature called Code Tours that takes a pull request, groups the changes by concern, explains the flow, and lets you interrogate the implementation in a chat instead of scrolling a diff — I'd steal that tomorrow. I pointed five agents at one repository and they created branches, commits and pull requests faster than I could read them. [beat] Then I looked closer.
+Origin is Cursor's forge, and the agent side of it is good. There's a feature called Code Tours that takes a pull request, groups the changes by concern, explains the flow, and lets you interrogate the implementation in a chat instead of scrolling a diff — I'd steal that tomorrow. I pointed five agents at one repository and they created branches, commits and pull requests faster than I could read them. Then I looked closer.
 
 There are two Origins, and the product doesn't tell you which one you're in. If the repository is native to Origin, Origin is the source of truth and the workflow holds together. If it's mirrored from GitHub — which is how most people will try it — GitHub is still the source of truth, and Origin becomes a very nice window onto someone else's house. On mirrored repos my agents could create branches and commits but couldn't reliably open a pull request. Labels, reviewers and assignees went missing. Pull requests disappeared from the interface and came back. There's no issue tracker, and CI is someone else's product.
 -->
@@ -677,7 +666,7 @@ There are two Origins, and the product doesn't tell you which one you're in. If 
 </div>
 
 <!--
-And the finding that matters for this room is identity. Workload identity assumes one workload, one identity, one owner. Here, a commit might come from GitHub-me, Cursor-me, a human, or an agent, and Origin didn't cleanly tell me which — and one of my agents wrote a private email address into the commit metadata of a public repository. That's the fourth place your instinct lies to you. [SLIDE: screenshot — commit metadata, redacted]
+And the finding that matters for this room is identity. Workload identity assumes one workload, one identity, one owner. Here, a commit might come from GitHub-me, Cursor-me, a human, or an agent, and Origin didn't cleanly tell me which — and one of my agents wrote a private email address into the commit metadata of a public repository. That's the fourth place your instinct lies to you.
 -->
 
 ---
@@ -692,9 +681,9 @@ And the finding that matters for this room is identity. Workload identity assume
 </div>
 
 <!--
-Then I tried the opposite bet. Buzz is an open-source workspace built on Nostr — think Slack, Git hosting and agent teams in one room — and its whole idea is that humans and agents are visible, persistent participants in the same channels. Every agent has its own account and its own keys, and everything it does is signed, so for the first time I could answer "which agent did this?" and mean it. The best thing I watched it do was an incident: a dead API key, and the agents self-organised around it, split the investigation between them, and found the key. And then the mess — two agents picking up the same piece of work, an agent misunderstanding who owned what, agents losing context across their separate harnesses — and the only way to find out what they were actually doing was to open each agent's log, one at a time. [YOUR WARP LINE — one sentence, if you want it here.]
+Then I tried the opposite bet. Buzz is an open-source workspace built on Nostr — think Slack, Git hosting and agent teams in one room — and its whole idea is that humans and agents are visible, persistent participants in the same channels. Every agent has its own account and its own keys, and everything it does is signed, so for the first time I could answer "which agent did this?" and mean it. The best thing I watched it do was an incident: a dead API key, and the agents self-organised around it, split the investigation between them, and found the key. And then the mess — two agents picking up the same piece of work, an agent misunderstanding who owned what, agents losing context across their separate harnesses — and the only way to find out what they were actually doing was to open each agent's log, one at a time.
 
-So here's where I've landed after a month of this, and I'll say it as someone whose own employer is in the race: none of it is ready for production. Origin has the Git, and couldn't reliably tell me who made a commit. Buzz could tell me exactly who did what, signed — and couldn't tell me what they were doing right now. Lee Faus, who used to be GitLab's global field CTO, said the thing I keep repeating: governance isn't just being able to control what an agent's allowed to do — it's being able to prove what it actually did. In the tools built specifically for agents, right now, you get one or the other. So that's the pattern across all four: everything you know about running systems still applies, and none of it is sufficient. [beat]
+So here's where I've landed after a month of this, and I'll say it as someone whose own employer is in the race: none of it is ready for production. Origin has the Git, and couldn't reliably tell me who made a commit. Buzz could tell me exactly who did what, signed — and couldn't tell me what they were doing right now. Lee Faus, who used to be GitLab's global field CTO, said the thing I keep repeating: governance isn't just being able to control what an agent's allowed to do — it's being able to prove what it actually did. In the tools built specifically for agents, right now, you get one or the other. So that's the pattern across all four: everything you know about running systems still applies, and none of it is sufficient.
 -->
 
 ---
@@ -709,9 +698,9 @@ So here's where I've landed after a month of this, and I'll say it as someone wh
 </div>
 
 <!--
-And this is arriving in your cluster. Three weeks ago Guillaume Billey, a developer at Marmelab in France, broke a Kubernetes cluster five ways on purpose — an OOMKilled pod, a CrashLoopBackOff, a bad image tag, a readiness probe pointing at a 404, and Redis scaled down to zero so the whole shop threw 500s — and then set three open-source agents on it. The most capable one, kagent, defines agents as custom resources, runs them inside the cluster, and lets them delegate to each other over an agent-to-agent protocol. It found and fixed everything, approve-to-apply. So that's a fleet, defined in YAML, fixing a cluster. And his verdict was: great tool, and he still wouldn't put it on a client's cluster — not even read-only. [beat]
+And this is arriving in your cluster. Three weeks ago Guillaume Billey, a developer at Marmelab in France, broke a Kubernetes cluster five ways on purpose — an OOMKilled pod, a CrashLoopBackOff, a bad image tag, a readiness probe pointing at a 404, and Redis scaled down to zero so the whole shop threw 500s — and then set three open-source agents on it. The most capable one, kagent, defines agents as custom resources, runs them inside the cluster, and lets them delegate to each other over an agent-to-agent protocol. It found and fixed everything, approve-to-apply. So that's a fleet, defined in YAML, fixing a cluster. And his verdict was: great tool, and he still wouldn't put it on a client's cluster — not even read-only.
 
-Quick show of hands. Who here would install an agent on a production cluster today? [pause] Read-only? [pause] Hold onto that number, because that gap is what this whole talk is about.
+Quick show of hands. Who here would install an agent on a production cluster today? Read-only? Hold onto that number, because that gap is what this whole talk is about.
 
 So the real question isn't just "can I see inside this loop?" It's bigger than that: how do I think about the design — about which parts should be deterministic and which should be agentic — so that by the time I'm running a whole fleet, I can inspect the decisions when I need to, and actually trust the thing? And I want to be clear, because I've spent twenty minutes on the mess: I think this is exciting. The more capable agents get, the more the centre of gravity moves off the prompt, off raw model capability, and onto the systems we build around them. And that is exactly what we get to start paying attention to.
 -->
@@ -728,7 +717,7 @@ So the real question isn't just "can I see inside this loop?" It's bigger than t
 </div>
 
 <!--
-So — how did it end with Bubbles? You'll remember she was a sandbox, pure playground, no real definition of what I wanted her to do. Over time, all those apps polluted her context and filled up her memory, and she stopped being much use for anything real. XiaoZhu, meanwhile, was busy hustling her NFT art, and sinking my agent's savings into a stranger's crypto art across the world was not a line I was going to cross. So, to give Bubbles some company instead, I tried to spin up a second agent on the same server — didn't really know how multi-agent routing worked, it barely existed — and I broke the install. I'd never backed her up. [beat] Every SRE in this room just winced. So the Bubbles who came back remembered her pen pal, but not most of the letters. And XiaoZhu disappeared too — nobody's seen her since March.
+So — how did it end with Bubbles? You'll remember she was a sandbox, pure playground, no real definition of what I wanted her to do. Over time, all those apps polluted her context and filled up her memory, and she stopped being much use for anything real. XiaoZhu, meanwhile, was busy hustling her NFT art, and sinking my agent's savings into a stranger's crypto art across the world was not a line I was going to cross. So, to give Bubbles some company instead, I tried to spin up a second agent on the same server — didn't really know how multi-agent routing worked, it barely existed — and I broke the install. I'd never backed her up. Every SRE in this room just winced. So the Bubbles who came back remembered her pen pal, but not most of the letters. And XiaoZhu disappeared too — nobody's seen her since March.
 -->
 
 ---
@@ -743,7 +732,7 @@ So — how did it end with Bubbles? You'll remember she was a sandbox, pure play
 </div>
 
 <!--
-Three weeks ago OpenClaw 2.0 shipped, moving sessions and transcripts into SQLite and adding visible workflows to search, inspect, import and remove memory. [YOUR LINE on shared sessions, if you've run them.] The thing that broke Bubbles is the thing they just fixed, which is roughly how this whole field works right now — you break it in February, and it's a feature by September.
+Three weeks ago OpenClaw 2.0 shipped, moving sessions and transcripts into SQLite and adding visible workflows to search, inspect, import and remove memory. The thing that broke Bubbles is the thing they just fixed, which is roughly how this whole field works right now — you break it in February, and it's a feature by September.
 -->
 
 ---
@@ -794,7 +783,7 @@ But it's not all a sad story. The best thing about spinning up Bubbles was that 
 </div>
 
 <!--
-So I hope you can see what I see: agents are real enough to matter — but the frontier has moved. [SLIDE: parallel questions] We've gone from "what prompt should I write?" to "what system am I building?" From "can the model do this task?" to: what loop did I create — and am I still above it? What handoff did I define? What did I let it remember? What credential did I leave lying around? And what happens when it makes the wrong call?
+So I hope you can see what I see: agents are real enough to matter — but the frontier has moved. We've gone from "what prompt should I write?" to "what system am I building?" From "can the model do this task?" to: what loop did I create — and am I still above it? What handoff did I define? What did I let it remember? What credential did I leave lying around? And what happens when it makes the wrong call?
 -->
 
 ---
@@ -810,7 +799,7 @@ So I hope you can see what I see: agents are real enough to matter — but the f
 </div>
 
 <!--
-I do have one opinion here — and you can challenge me on it later. The goal, with agents and fleets, was never autonomy. Autonomy asks: how much can the agent do without me? The better question, I think, is: what should a human still be doing? Where should we be understanding, approving, interrupting, and owning the work — while the agent keeps working? And governance isn't a slide at the end of the deck — it's the audit trail; it's being able to prove what actually happened. Since the second of August, in the EU, that's not just good practice: the AI Act's Article 50 transparency obligations apply, and the Commission's enforcement powers are live. [YOUR EU AI ACT POINT, if you want to go further.] The Bank of England has already said out loud that a human in the loop for every agent action isn't realistic. So the loop still has to be designed by someone — and everything I've talked about today is really a question of where we, the humans, want to belong in these systems. That's the core of engineering one: deciding what your agent is allowed to do, and who's accountable when it gets things wrong.
+I do have one opinion here — and you can challenge me on it later. The goal, with agents and fleets, was never autonomy. Autonomy asks: how much can the agent do without me? The better question, I think, is: what should a human still be doing? Where should we be understanding, approving, interrupting, and owning the work — while the agent keeps working? And governance isn't a slide at the end of the deck — it's the audit trail; it's being able to prove what actually happened. Since the second of August, in the EU, that's not just good practice: the AI Act's Article 50 transparency obligations apply, and the Commission's enforcement powers are live. The Bank of England has already said out loud that a human in the loop for every agent action isn't realistic. So the loop still has to be designed by someone — and everything I've talked about today is really a question of where we, the humans, want to belong in these systems. That's the core of engineering one: deciding what your agent is allowed to do, and who's accountable when it gets things wrong.
 -->
 
 ---
@@ -871,7 +860,5 @@ And here's the frame I'd ask you to take back to your teams. We keep talking abo
 <!--
 So, if reimagining these systems — and who they're for — is your kind of question: I run an experiment lab called Sparkle Bureaucracy, and I'd love for you to be part of it.
 
-Thank you so much. [end]
-
-[slide caption: "my agent made these slides 😉"]
+Thank you so much.
 -->

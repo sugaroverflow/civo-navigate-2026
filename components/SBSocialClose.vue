@@ -20,7 +20,6 @@ const withBase = (src) => {
           <span>m</span>
         </div>
       </div>
-      <p class="agent-made-caption">my agent made these slides.</p>
     </section>
 
     <section class="social-lab">

@@ -10,5 +10,9 @@
     <main class="sb-stage">
       <slot />
     </main>
+
+    <footer class="sb-global-footer" aria-hidden="true">
+      my agent made these slides
+    </footer>
   </div>
 </template>
