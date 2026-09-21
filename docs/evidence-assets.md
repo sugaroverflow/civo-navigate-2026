@@ -1,0 +1,22 @@
+# Civo evidence assets
+
+All added images are browser-safe PNGs under `public/assets/screenshots/civo/`. Product screenshots come from first-party pages or repositories; the kagent still is extracted from the author's own embedded field-test video.
+
+| Asset | Primary source | Suggested use and caption |
+| --- | --- | --- |
+| `meta-muse-secure-vm-architecture.png` | [Meta AI Research: How We Built Safety Into Muse](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse) · [direct official diagram](https://research.meta.ai/articles/security-and-safety-for-ai-agents-our-approach-with-hatch/system-architecture-v3.png) | Use beside the Bubbles architecture. Caption: “Muse Secure VM: the main agent is isolated from host-side credentials and network egress; Sentinel is the permission authority.” The diagram itself names the runtime cell, Sentinel, credential store and external services. |
+| `kagent-cluster-fix-mid-apply.png` | [Marmelab: Can An AI Agent Debug Kubernetes?](https://marmelab.com/blog/2026/09/03/ai-agents-vs-broken-kubernetes.html) · [embedded kagent fix demo](https://marmelab.com/_astro/kagent-fix.Bh1M3x01.webm) | Full-resolution frame at about 00:20. The UI shows the human instruction “Apply the fix,” a completed `k8s_patch_resource` call, the proposed Redis scale-up, and “Executing tools.” Caption: “kagent applies an approved Redis fix inside the test cluster.” |
+| `warp-factories-activity-view.png` | [Warp: Introducing Warp Factories](https://www.warp.dev/blog/open-infrastructure-for-building-a-software-factory) · [direct official image](https://cdn.sanity.io/images/1ygbk6d0/production/2bc8c9e158d6d482df834e76f379941cb995f531-3200x1600.png) | Use for the new runtimes/forges/factories band or the one-sentence Warp comparison. Caption: “Warp Factories control room: work grouped across triage, planning and building.” |
+| `cursor-origin-repository-ui.png` | [Cursor Origin documentation](https://cursor.com/docs/origin) · [official create-and-push demo](https://cursor.com/docs-static/images/origin/create-and-push.mp4) | Full-resolution frame at about 00:21, after the first push reaches Origin. Caption: “Origin: Cursor’s early-beta Git forge, shown after a repository is created and pushed.” This is a general product visual, not evidence of Code Tours or the five-agent test described in the talk. |
+| `buzz-humans-agents-channel.png` | [Block’s official Buzz repository](https://github.com/block/buzz) · [source image](https://github.com/block/buzz/blob/main/docs/assets/screenshots/channel-agents.png) | Use for the Buzz section. It visibly places named humans and several bot-profile agents in one engineering channel. Caption: “Buzz gives humans and agents persistent identities in the same workspace.” This is not the speaker’s API-key incident screenshot. |
+
+## Still missing
+
+- **OpenClaw 2.0 Memory UI:** the canonical [v2026.8.1 memory release notes](https://docs.openclaw.ai/releases/2026.8.1/memory) document the dedicated Memory settings page, live overview, search/browsing and safe deletion controls, but I found no first-party screenshot published in the docs or the official repository. Best replacement: capture the speaker’s own current OpenClaw instance on **Settings → Memory**, with private names, paths, memories and agent identifiers redacted. Until then, use a designed summary slide or cite the release notes rather than a third-party UI image.
+- **Cursor Origin multi-agent branches / Code Tours:** the added official image establishes the product UI only. The script’s five-agent branches, disappearing pull requests, Code Tours and commit-metadata examples need speaker-owned captures from her test account.
+- **Buzz incident channel:** the added official image establishes shared human/agent participation. The dead-API-key incident and per-agent-log limitations need the speaker’s own capture.
+- **Warp hands-on comparison:** the official Activity view is strong product context, but any claim about the speaker’s testing should use her own evidence if that line stays in the script.
+
+## Caption/source treatment
+
+Keep a small source line on each evidence slide, for example `Source: Meta AI Research, 8 Sep 2026` or `Source: Marmelab field test, 3 Sep 2026`. Do not crop away product identity, human-approval language, or tool status where those details are the reason the screenshot is on the slide.
