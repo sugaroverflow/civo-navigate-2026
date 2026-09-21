@@ -34,7 +34,7 @@ So this is a field report from the chaos — and it begins with my first always-
 <SBCivoBio />
 
 <!--
-To tell you a little bit about myself: I'm Fatima. I do developer relations at GitLab — I work in AI, DevSecOps and open source — and I've just finished a fellowship at London's College of Political Technology, where my research has been multi-agent workflows, and how AI can be used to build more optimistic futures. Which in practice means building them, and then watching them break. I also run ClawClub, a monthly agents hack night, which is where most of my stories from the field come from. And I host GitLab's Monday Merge and The Developer Show — so if you caught Kelsey Hightower this morning, he's been on the show twice. That's my claim to fame.
+To tell you a little about me: I'm Fatima — an AI engineer and civic hacker, and a Senior Developer Advocate at GitLab. I work across AI, DevSecOps and open source, turning early R&D into workshops, demos and technical stories that help developers put new capabilities into practice. Before agents, a lot of my work was in civic tech and open source: Transport Canada, Microsoft Civic Tech, the City of Boston, Drupal's Layout Builder, and the Drupal Diversity and Inclusion Working Group. This year I've also been doing a research fellowship at Newspeak House, London's College of Political Technology, exploring multi-agent workflows and contributing to the Civic Tech Field Guide and Campaign Lab, including a multi-agent project called Campaign Factory. I also run ClawClub, our monthly AI agents hack night, and host GitLab's Monday Merge and The Developer Show. If you caught Kelsey Hightower this morning, he's been on the show twice. That's my claim to fame.
 -->
 
 ---
